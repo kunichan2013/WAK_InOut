@@ -1,1 +1,1 @@
-Read Me
+**WAK_InOut is a library for Wakanda (www.wakanda.org) designed to facilitate the import / export of data from the datastore in a generic was to common formats such as CSV.
