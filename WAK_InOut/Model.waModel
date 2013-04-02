@@ -1,1 +1,102 @@
-﻿<?xml version="1.0" encoding="UTF-8"?><EntityModelCatalog><dbInfo name="Model" uuid="DEB2380315EE8E47AF7052ECFC4FADBC"/><dataClasses collectionName="Sample1Collection" className="Sample1" uuid="01D365234B21444EACFB6F2FFB62776D" tablePos="1">	<extraProperties ____objectunic="true" panelColor="#76923C">		<panel ____objectunic="true" isOpen="true" pathVisible="true">			<position ____objectunic="true" X="25" Y="20"/>		</panel>	</extraProperties>	<attributes name="ID" kind="storage" type="long" uuid="290CA88BF5164DD9947254436086396E" fieldPos="1" autosequence="true" unique="true" primKey="true"/>	<attributes name="stringType" scope="public" uuid="A2847F7979224D37A90EDA05633171AF" fieldPos="2" type="string" kind="storage"/>	<attributes name="uuidType" scope="public" uuid="9978E94E79F747C7B7F09AF8EF9CC0A6" fieldPos="3" type="uuid" kind="storage"/>	<attributes name="numberType" scope="public" uuid="E1DDA2C54F0E48B3BB9997FB242D5B98" fieldPos="4" type="number" kind="storage"/>	<attributes name="longType" scope="public" uuid="AB63C5886E6A421A8D6C1B9FC8E1D238" fieldPos="5" type="long" kind="storage"/>	<attributes name="dateType" scope="public" uuid="F59928E1390740138892354D27F36FDA" fieldPos="6" type="date" kind="storage"/></dataClasses></EntityModelCatalog>
+﻿{
+	"dbInfo": [
+		{
+			"name": "Model",
+			"uuid": "DEB2380315EE8E47AF7052ECFC4FADBC"
+		}
+	],
+	"dataClasses": [
+		{
+			"name": "Sample1",
+			"className": "Sample1",
+			"collectionName": "Sample1Collection",
+			"scope": "public",
+			"uuid": "01D365234B21444EACFB6F2FFB62776D",
+			"extraProperties": {
+				"panelColor": "#76923C",
+				"__CDATA": "\n\n\t\t\n\n\t",
+				"panel": {
+					"isOpen": "true",
+					"pathVisible": "true",
+					"__CDATA": "\n\n\t\t\t\n\n\t\t",
+					"position": {
+						"X": "25",
+						"Y": "20"
+					}
+				}
+			},
+			"attributes": [
+				{
+					"name": "ID",
+					"kind": "storage",
+					"scope": "public",
+					"uuid": "290CA88BF5164DD9947254436086396E",
+					"unique": true,
+					"autosequence": true,
+					"type": "long",
+					"primKey": true
+				},
+				{
+					"name": "stringType",
+					"kind": "storage",
+					"scope": "public",
+					"uuid": "A2847F7979224D37A90EDA05633171AF",
+					"type": "string"
+				},
+				{
+					"name": "uuidType",
+					"kind": "storage",
+					"scope": "public",
+					"uuid": "9978E94E79F747C7B7F09AF8EF9CC0A6",
+					"type": "uuid"
+				},
+				{
+					"name": "numberType",
+					"kind": "storage",
+					"scope": "public",
+					"uuid": "E1DDA2C54F0E48B3BB9997FB242D5B98",
+					"type": "number"
+				},
+				{
+					"name": "longType",
+					"kind": "storage",
+					"scope": "public",
+					"uuid": "AB63C5886E6A421A8D6C1B9FC8E1D238",
+					"type": "long"
+				},
+				{
+					"name": "dateType",
+					"kind": "storage",
+					"scope": "public",
+					"uuid": "F59928E1390740138892354D27F36FDA",
+					"type": "date",
+					"simpleDate": false
+				}
+			]
+		}
+	],
+	"extraProperties": {
+		"model": {
+			"workspaceLeft": 0,
+			"workspaceTop": 0
+		},
+		"classes": {
+			"Sample1": {
+				"panelColor": "#76923C",
+				"__CDATA": "\n\n\t\t\n\n\t",
+				"panel": {
+					"isOpen": "true",
+					"pathVisible": "true",
+					"__CDATA": "\n\n\t\t\t\n\n\t\t",
+					"position": {
+						"X": "25",
+						"Y": "20"
+					}
+				}
+			}
+		},
+		"version": "1"
+	},
+	"toJSON": true,
+	"type": []
+}
